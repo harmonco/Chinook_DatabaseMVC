@@ -1,0 +1,53 @@
+﻿
+@model ChinookDatabase.Models.AllInvoicesModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>View Invoices</h2>
+<table>
+    <tr>
+        <th>
+            Invoice Id
+        </th>
+        <th>
+            Customer Id
+        </th>
+        <th>
+            Amount
+        </th>
+        <th>
+            Invoice Date
+        </th>
+        <th>
+            Edit Invoice
+        </th>
+        <th>
+            Delete Invoice
+        </th>
+    </tr>
+    @foreach (ChinookDatabase.Models.InvoiceModels invoice in Model.Invoices)
+    {
+        <tr>
+            <td>
+                @invoice.InvoiceId
+            </td>
+            <td>
+                @invoice.CustomerId
+            </td>
+            <td>
+                @invoice.Total.ToString("C2")
+            </td>
+            <td>
+                @invoice.InvoiceDate.ToShortDateString()
+            </td>
+            <td>
+                <a href="/Invoice/Edit?InvoiceId=@invoice.InvoiceId"> Edit</a>
+            </td>
+            <td>
+                <a href="/Invoice/Delete?InvoiceId=@invoice.InvoiceId"> Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+

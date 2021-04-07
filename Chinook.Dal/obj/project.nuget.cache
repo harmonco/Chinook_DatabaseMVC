@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "mKRdEyZr9I6wA/YYQ4VkMsFbXkh5VS9G3aMiUP9ieL6Gih2jChPIsufxn4sN68GSgvt/q8kdjvKkcvgdvFQBwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cjhar\\source\\repos\\ChinookDatabase\\Chinook.Dal\\Chinook.Dal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cjhar\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cjhar\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\cjhar\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.113.2\\stub.system.data.sqlite.core.netstandard.1.0.113.2.nupkg.sha512",
+    "C:\\Users\\cjhar\\.nuget\\packages\\system.data.sqlite\\1.0.113.7\\system.data.sqlite.1.0.113.7.nupkg.sha512",
+    "C:\\Users\\cjhar\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.7\\system.data.sqlite.core.1.0.113.7.nupkg.sha512"
+  ],
+  "logs": []
+}

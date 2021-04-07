@@ -1,0 +1,9 @@
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\bin\Debug\netstandard2.0\Chinook.Dal.deps.json
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\bin\Debug\netstandard2.0\Chinook.Dal.dll
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\bin\Debug\netstandard2.0\Chinook.Dal.pdb
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\obj\Debug\netstandard2.0\Chinook.Dal.csprojAssemblyReference.cache
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\obj\Debug\netstandard2.0\Chinook.Dal.AssemblyInfoInputs.cache
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\obj\Debug\netstandard2.0\Chinook.Dal.AssemblyInfo.cs
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\obj\Debug\netstandard2.0\Chinook.Dal.csproj.CoreCompileInputs.cache
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\obj\Debug\netstandard2.0\Chinook.Dal.dll
+C:\Users\cjhar\source\repos\ChinookDatabase\Chinook.Dal\obj\Debug\netstandard2.0\Chinook.Dal.pdb

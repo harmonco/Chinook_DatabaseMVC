@@ -1,0 +1,72 @@
+﻿
+@model ChinookDatabase.Models.AllCustomersModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>View Customers</h2>
+<a href="/Customer/Add">Add a Customer</a>
+<table>
+    <tr>
+        <th>
+            Customer Id
+        </th>
+        <th>
+            First Name
+        </th>
+        <th>
+            Last Name
+        </th>
+        <th>
+            Country
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            View Invoices
+        </th>
+        <th>
+            Add An Invoice
+        </th>
+        <th>
+            Edit Customer
+        </th>
+        <th>
+            Delete Customer
+        </th>
+    </tr>
+    @foreach (ChinookDatabase.Models.CustomerModels customer in Model.Customers)
+    {
+        <tr>
+            <td>
+                @customer.CustomerId
+            </td>
+            <td>
+                @customer.FirstName
+            </td>
+            <td>
+                @customer.LastName
+            </td>
+            <td>
+                @customer.Country
+            </td>
+            <td>
+                @customer.Email
+            </td>
+            <td>
+                <a href="/Invoice?CustomerId=@customer.CustomerId">View</a>
+            </td>
+            <td>
+                <a href="/Invoice/Add?CustomerId=@customer.CustomerId">Add An Invoice  </a>
+            </td>
+            <td>
+                <a href="/Customer/Edit?CustomerId=@customer.CustomerId">Edit</a>
+            </td>
+            <td>
+                <a href="/Customer/Delete?CustomerId=@customer.CustomerId">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
+
